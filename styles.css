@@ -1,0 +1,131 @@
+body {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(#92A52Cff, #3B4C29ff);
+    color:#F3EADFff;
+}
+
+h1{
+    font-family: 'Happy Monkey', cursive;
+    font-size: 2.5em;
+    color: #F3EADFff; 
+    text-decoration: underline;
+    text-decoration-color: #895B49ff; 
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+h2, h3, p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #C8DD20ff;
+    margin-bottom: 10px;
+    box-shadow: 0 0 8px rgba(200, 221, 32, 0.8);
+}
+
+#bday-age {
+    background: #C8DD20ff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    box-shadow: 0 0 8px rgba(200, 221, 32, 0.8);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#bday-date {
+    margin: 0;
+    background: #C8DD20ff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(200, 221, 32, 0.8);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+    background-image: url("images/GreenBox2.jpg");
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/GreenBox1.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    transition: background-image 0.2s ease-in-out, transform 0.1s ease-in-out;
+}
+
+h1:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+#bff-img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+#bday-age:hover, #bday-date:hover {
+    box-shadow: 0 0 15px rgba(200, 221, 32, 1);
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/Aplause.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/hot.gif");
+}
+
+#gift-img-genius:hover {
+    background-image: url("images/genius.gif");
+}
+
+#gift-img-badass:hover {
+    background-image: url("images/badass.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/cheers.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+    padding-top: 20px;
+    border-top: 2px solid rgba(255, 255, 255, 0.5);
+    opacity: 0.8;
+}
+
+a {
+    color: white;
+}
