@@ -2,7 +2,7 @@
 
 This project is a personalized webpage dedicated to celebrating Leo's birthday, highlighting special moments and unique characteristics that define him.
 
-![Preview](capture/capture.png)
+![Preview](images/capture.png)
 
 ## Table of Contents
 
